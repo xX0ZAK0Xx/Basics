@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           
           title: 
             const Text(
-              "This is first screen", 
+              "This is Zayeds HomePage", 
               style: TextStyle(
                 color: Colors.white, 
                 fontSize: 30,
