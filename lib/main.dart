@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         ),
         backgroundColor: Colors.green,
         body: Center(
-          child: Text(name, style: TextStyle(color: const Color.fromARGB(255, 255, 0, 0), fontSize: 50),
+          child: Text(name, style: TextStyle(color: const Color.fromARGB(255, 255, 0, 0), fontSize: 70),
           ),
         ),
       ),
