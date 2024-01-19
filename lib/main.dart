@@ -22,18 +22,19 @@ class MyApp extends StatelessWidget {
           
           title: 
             const Text(
-              "This is first screen", 
+              "This is Zayeds HomePage", 
               style: TextStyle(
                 color: Colors.white, 
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
           ),
+          centerTitle: true,
           leading: const Icon(Icons.menu, color:  Colors.white,),
         ),
         backgroundColor: Colors.green,
         body: Center(
-          child: Text(name, style: TextStyle(color: Colors.white, fontSize: 50),
+          child: Text(name, style: TextStyle(color: const Color.fromARGB(255, 255, 0, 0), fontSize: 70),
           ),
         ),
       ),
