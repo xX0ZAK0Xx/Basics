@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold
               ),
           ),
+          centerTitle: true,
           leading: const Icon(Icons.menu, color:  Colors.white,),
         ),
         backgroundColor: Colors.green,
